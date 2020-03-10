@@ -23,12 +23,12 @@ body{
 .site-title::after{
   margin-left: 0.3em;
 }
-.login-form{
+.form{
   display: flex;
   justify-content: center;
 }
 
-.login-form .user-id, .login-form .password{
+.form input{
   font-size: 20px;
   line-height: 25px;
   width: 300px;
@@ -53,11 +53,14 @@ input.submit-btn{
   color: #fff;
   vertical-align: middle;
   cursor: pointer;
+  font-weight: bold;
 }
 input.submit-btn:hover{
   color: #5bcaff;
-  border: 1px solid #5bcaff;
+  border: 2px solid #5bcaff;
   background: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
 }
 .create-account{
   width: 300px;
