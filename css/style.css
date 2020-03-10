@@ -72,6 +72,10 @@ input.submit-btn:hover{
   color: #5bcaff;
   font-weight: bold;
 }
+.sign-up:hover{
+  border-bottom: 2px solid #5bcaff;
+  opacity: 0.7;
+}
 
 
 
