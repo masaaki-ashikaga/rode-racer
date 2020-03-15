@@ -1,26 +1,26 @@
-body{
+.signup-page, .login-page{
   margin: 50px auto;
   height: 400px;
   width: 450px;
   border: solid #ccc;
   padding: 20px;
 }
-.site-title{
+.site-title, .explain-title{
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 30px;
   margin-bottom: 30px;
 }
-.site-title::before, .site-title::after{
+.site-title::before, .site-title::after, .explain-title::after, .explain-title::before{
   content: "";
   border-top: solid #000;
   width: 0.5em
 }
-.site-title::before{
+.site-title::before, .explain-title::before{
   margin-right: 0.3em;
 }
-.site-title::after{
+.site-title::after, .explain-title::after{
   margin-left: 0.3em;
 }
 .form{
@@ -48,7 +48,7 @@ input.submit-btn{
   height: 50px;
   padding: 12px 20px;
   font-size: 1.2em;
-  background: #5bcaff;
+  background: #87dfd3;
   border-style: none;
   color: #fff;
   vertical-align: middle;
@@ -56,8 +56,8 @@ input.submit-btn{
   font-weight: bold;
 }
 input.submit-btn:hover{
-  color: #5bcaff;
-  border: 2px solid #5bcaff;
+  color: #87dfd3;
+  border: 2px solid #87dfd3;
   background: #fff;
   font-weight: bold;
   padding: 12px 20px;
@@ -72,13 +72,116 @@ input.submit-btn:hover{
 .sign-up{
   margin-left: 1em;
   text-decoration: none;
-  color: #5bcaff;
+  color: #87dfd3;
   font-weight: bold;
 }
 .sign-up:hover{
-  border-bottom: 2px solid #5bcaff;
+  border-bottom: 2px solid #87dfd3;
   opacity: 0.7;
 }
+/* ここからhome.htmlのCSS */
+.header-img{
+  width: 960px;
+  height: 600px;
+}
+.header-title{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 600px;
+  width: 960px;
+  background: #000;
+}
+.header-title:before{
+  content: ' ';
+  width: 960px;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.header-title h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+.header-title p{
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+.header-caption{
+  position: absolute;
+  width: 100%;
+  padding-bottom: 60px;
+}
+.main{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+.menu{
+  /* 背景色はあとで削除します。（範囲把握のための印です。） */
+  width: 960px;
+  background: #87dfd3;
+  margin: 0 auto;
+}
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
 
-
-
+.menu li a, .footer-menu a{ 
+  font-size: 20px;
+  text-decoration: none;
+  width: 150px;
+  color: #000;
+}
+.menu li a:hover, .footer-menu a:hover{
+  font-weight: bold;
+}
+.main{
+  margin-top: 50px;
+}
+.home-image{
+  width: 400px;
+  height: 250px;
+}
+.contents-explain{
+  margin-bottom: 80px;
+  width: 960px
+}
+.explain{
+  display: flex;
+}
+.explain-title{
+  margin: 0 auto 30px auto;
+  width: 330px;
+  border-bottom: 3px solid #87dfd3;
+}
+.explain-text{
+  width: 450px;
+  margin-right: 50px;
+  padding: 30px 0 30px 0;
+}
+.footer-menu{
+  background: #87dfd3;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+}
+.footer-menu ul{
+  width: 600px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+.footer-menu a{
+  font-size: 18px;
+  color: #fff;
+}
