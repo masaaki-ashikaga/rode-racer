@@ -107,15 +107,28 @@
   height: 200px;
 }
 .brand-area{
-  width: 100px;
-  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+  margin: 20px auto;
   border-bottom: solid #87dfd3;
+  font-size: 25px;
 }
+
 .brand-name{
   text-align: center;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.brand-name:hover{
+  font-weight: bold;
+  font-size: 23px;
+  opacity: 0.8;
 }
 .brand-introduce{
   width: 400px;
+  margin-bottom: 50px;
 }
 .brand-introduce p{
   text-align: center;
