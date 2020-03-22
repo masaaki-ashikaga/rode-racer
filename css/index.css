@@ -7,7 +7,7 @@
 .header-img{
   width: 600px;
   height: 400px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .header-title{
   margin: 0 auto;
@@ -116,7 +116,7 @@
 .about-brand{
     color: #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin: 20px auto 0 auto;
     width: 300px;
     border-bottom: solid #87dfd3;
@@ -148,6 +148,7 @@
 .sub-image{
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 .sub-image img{
   width: 300px;
