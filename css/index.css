@@ -113,7 +113,14 @@
   border-bottom: solid #87dfd3;
   font-size: 25px;
 }
-
+.about-brand{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto 0 auto;
+    width: 300px;
+    border-bottom: solid #87dfd3;
+}
 .brand-name{
   text-align: center;
   font-size: 20px;
@@ -140,6 +147,7 @@
 }
 .sub-image{
   text-align: center;
+  margin-bottom: 50px;
 }
 .sub-image img{
   width: 300px;
@@ -150,14 +158,38 @@
   width: 960px;
   margin: 0 auto;
 }
-.history, .character, .price, .HomePage{
-  background: #87dfd3;
-  color: #fff;
-  width: 100px;
-  height: 30px;
-  font-size: 20px;
+.history, .character, .price, .hp{
+  border-bottom: 2px solid #87dfd3;
+  font-size: 17px;
   text-align: center;
-  line-height: 30px;
-  border-radius: 12px;
-  margin: 10px 0;
+  font-weight: bold;
+}
+.brand-history, .brand-character, .brand-price{
+  margin-bottom: 25px;
+}
+.history{
+  width: 90px;
+}
+.character{
+  width: 110px;
+}
+.price{
+  width: 60px;
+}
+.HomePage{
+  width: 50px;
+}
+.price{
+  margin-right: 60px;
+}
+.hp{
+  margin-right: 70px;
+  width: 50px;
+  letter-spacing: 0.1em;
+}
+.brand-price, .brand-hp{
+  display: flex;
+}
+.brand-hp{
+  margin-bottom: 50px;
 }
