@@ -194,3 +194,50 @@
 .brand-hp{
   margin-bottom: 50px;
 }
+
+/* galleryのCSS開始 */
+.gallery-header{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.new-post{
+  position: absolute;
+  right: 0;
+  margin: 30px;
+  display: flex;
+}
+.new-post p{
+  margin-right: 15px;
+}
+.new, .favorite{
+  text-decoration: none;
+  padding: 10px;
+  background: #87dfd3;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.new:hover, .favorite:hover{
+  opacity: 0.6;
+}
+.gallery-img{
+  width: 280px;
+  height: 180px;
+}
+.main-title{
+  width: 250px;
+  text-align: center;
+  margin: 20px auto;
+  border-bottom: solid #87dfd3;
+  font-size: 25px;
+}
+.post-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.post-display{
+  width: 300px;
+  margin-bottom: 50px;
+}
