@@ -241,3 +241,49 @@
   width: 300px;
   margin-bottom: 50px;
 }
+/* 新規投稿画面開始 */
+.main-newpost{
+  margin: 0 auto 50px auto;
+}
+
+.form{
+  justify-content: center;
+}
+.comment-post{
+  font-size: 20px;
+  line-height: 25px;
+  width: 500px;
+  margin: 15px 0;
+  padding: 10px;
+}
+.image-post{
+  font-size: 20px;
+  margin: 0 auto;
+  width: 300px;
+
+}
+.btn{
+  text-align: center;
+  height: 100px;
+  margin-bottom: 30px;
+}
+input.submit-btn{
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  background: #87dfd3;
+  border-style: none;
+  color: #fff;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: bold;
+}
+input.submit-btn:hover{
+  color: #87dfd3;
+  border: 2px solid #87dfd3;
+  background: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
+}
