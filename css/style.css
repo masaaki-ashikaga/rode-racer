@@ -5,6 +5,11 @@
   border: solid #ccc;
   padding: 20px;
 }
+.site-name h1{
+  font-size: 30px;
+  line-height: 65px;
+  margin-left: 20px;
+}
 .site-title, .explain-title{
   display: flex;
   align-items: center;
@@ -126,24 +131,30 @@ input.submit-btn:hover{
   display: flex;
 }
 .menu{
-  /* 背景色はあとで削除します。（範囲把握のための印です。） */
-  width: 960px;
+  width: 100%;
+  height: 70px;
   background: #87dfd3;
-  margin: 0 auto;
-}
-.menu-list{
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+}
+
+.menu-list{
+  width: 600px;
+  padding: 20px 20px 0 20px;
+  display: flex;
 }
 .menu li a, .footer-menu a{ 
   font-size: 20px;
   text-decoration: none;
   width: 150px;
   color: #000;
+  margin-right: 35px;
+}
+.menu li:first-child{
+  margin-left: 0;
 }
 .menu li a:hover, .footer-menu a:hover{
-  font-weight: bold;
+  opacity: 1.0;
 }
 .main{
   margin-top: 50px;

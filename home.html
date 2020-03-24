@@ -7,28 +7,39 @@
   <link rel="stylesheet" href="css.base.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Home</title>
+  <style>
+    .page-link{
+      opacity: 0.6;
+      color: #ccc;
+    }
+  </style>
 </head>
 <body>
   <header class="header">
+    <div class="menu">
+      <div class="site-name">
+        <h1>Road Racer</h1>
+      </div>
+      <div class="site-menu">
+        <ul class="menu-list">
+          <li><a href="home.html" id="home">Home</a></li>
+          <li><a href="brand.html" class="page-link">Brand</a></li>
+          <li><a href="gallery.html" class="page-link">Gallery</a></li>
+          <li><a href="shop.html" class="page-link">ShopList</a></li>
+          <li><a href="course.html" class="page-link">Course</a></li>
+          <li><a href="mypage.html" class="page-link">MyPage</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="header-title">
       <div class="header-img"><img src="img/page-top.jpg" class="header-img"></div>
         <div class="header-caption">
-          <h1 id="home">Road Racer</h1>
+          <h1>Road Racer</h1>
           <p>地上最速の乗り物を体験しよう</p>
         </div>
     </div>
   </header>
   
-  <div class="menu">
-    <ul class="menu-list">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="brand.html">Brand</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="shop.html">ShopList</a></li>
-      <li><a href="course.html">Course</a></li>
-      <li><a href="mypage.html">MyPage</a></li>
-    </ul>
-  </div>
   
   <main class="main">
       <div class="main-contents">
@@ -66,11 +77,11 @@
     <div class="footer-menu">
       <ul class="menu-list">
         <li><a href="#home">Home</a></li>
-        <li><a href="brand.html">Brand</a></li>
-        <li><a href="galley.html">Gallery</a></li>
-        <li><a href="shoplist.html">ShopList</a></li>
-        <li><a href="bourse.html">Course</a></li>
-        <li><a href="mypage.html">MyPage</a></li>
+        <li><a href="brand.html" class="page-link">Brand</a></li>
+        <li><a href="galley.html" class="page-link">Gallery</a></li>
+        <li><a href="shoplist.html" class="page-link">ShopList</a></li>
+        <li><a href="bourse.html" class="page-link">Course</a></li>
+        <li><a href="mypage.html" class="page-link">MyPage</a></li>
       </ul>
     </div>
   </footer>
