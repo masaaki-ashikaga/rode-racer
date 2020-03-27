@@ -221,7 +221,7 @@
 .new:hover, .favorite:hover{
   opacity: 0.6;
 }
-.gallery-img{
+.gallery-img,{
   width: 280px;
   height: 180px;
 }
@@ -286,4 +286,22 @@ input.submit-btn:hover{
   background: #fff;
   font-weight: bold;
   padding: 12px 20px;
+}
+
+/* ここからshop.htmlのCSS */
+.shop-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.shop-place{
+  font-size: 12px;
+  color: #4169E1;
+}
+.shop-display{
+  width: 400px;
+  margin-bottom: 50px;
+}
+.shop-img{
+  width: 400px;
+  margin-top: 5px;
 }
