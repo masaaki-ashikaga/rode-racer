@@ -221,7 +221,7 @@
 .new:hover, .favorite:hover{
   opacity: 0.6;
 }
-.gallery-img,{
+.gallery-img{
   width: 280px;
   height: 180px;
 }
