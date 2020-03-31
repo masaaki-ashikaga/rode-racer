@@ -293,15 +293,27 @@ input.submit-btn:hover{
   font-size: 18px;
   font-weight: bold;
 }
-.shop-place{
+.shop-place, .course-place{
   font-size: 12px;
   color: #4169E1;
 }
-.shop-display{
+.shop-display, .course-display{
   width: 400px;
   margin-bottom: 50px;
 }
-.shop-img{
+.shop-img, .course-img{
   width: 400px;
+  height: 280px;
   margin-top: 5px;
 }
+/* ここからcourse.htmlのCSS */
+.course-name{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+.course-name:hover{
+  opacity: 0.6;
+}
+
