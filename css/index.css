@@ -316,4 +316,26 @@ input.submit-btn:hover{
 .course-name:hover{
   opacity: 0.6;
 }
-
+.course-info{
+  margin-bottom: 10px;
+}
+.sub-course-image{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.sub-course-image img{
+  width: 300px;
+  height: 250px;
+}
+.course-information, .course-map{
+  width: 210px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #87dfd3;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+.course-chara{
+  margin-bottom: 60px;
+}
