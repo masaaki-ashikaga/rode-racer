@@ -258,7 +258,7 @@
 }
 .image-post{
   font-size: 20px;
-  margin: 0 auto;
+  margin: 0px auto 10px auto;
   width: 300px;
 
 }
@@ -338,4 +338,9 @@ input.submit-btn:hover{
 }
 .course-chara{
   margin-bottom: 60px;
+}
+.chara{
+  border: solid 1px #ccc;
+  width: 500px;
+  height: 250px;
 }
