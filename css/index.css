@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-top: 70px;
 }
 .page-title{
   color: #000;
@@ -36,6 +37,9 @@
   height: 70px;
   background: #87dfd3;
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 10;
   justify-content: space-between;
 }
 .page-link{
@@ -200,6 +204,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  padding-top: 70px;
 }
 .new-post{
   position: absolute;
@@ -225,6 +230,13 @@
   width: 280px;
   height: 180px;
 }
+.gallery-link{
+  text-decoration: none;
+  color: #000;
+}
+.gallery-link:hover{
+  opacity: 0.6;
+}
 .main-title{
   width: 250px;
   text-align: center;
@@ -241,6 +253,37 @@
   width: 300px;
   margin-bottom: 50px;
 }
+/* gallery詳細ページのCSS */
+.photo-detail{
+  width: 960px;
+}
+.photo-detail-info{
+  width: 960px;
+}
+.other-user-link{
+  text-decoration: none;
+  color: #000;
+}
+.other-user-link:hover{
+  opacity: 0.7;
+  border-bottom: 1px solid #000;
+}
+.photo-detail{
+  display: inline-block;
+  margin-top: 40px;
+}
+.photo-detail h2{
+  font-size: 25px;
+  border-bottom: 3px #87dfd3 solid;
+  width: 140px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.photo-detail p{
+  font-size: 17px;
+  margin-bottom: 70px;
+}
+
 /* 新規投稿画面開始 */
 .main-newpost{
   margin: 0 auto 50px auto;
