@@ -417,7 +417,7 @@ input.submit-btn:hover{
   display: flex;
   justify-content: space-between;
 }
-.mypage-menu a{
+.mypage-menu a, .profile-edit-btn{
   font-size: 20px;
   text-decoration: none;
   padding: 10px;
@@ -427,7 +427,32 @@ input.submit-btn:hover{
   font-weight: bold;
   border: solid #87dfd3 3px;
 }
-.mypage-menu a:hover{
+.mypage-menu a:hover, .profile-edit-btn:hover{
   background: #fff;
   color: #87dfd3;
+  cursor: pointer;
+}
+.profile-edit-btn{
+  display: flex;
+  margin: 30px auto;
+}
+
+/* mypage-editのCSS */
+.profile-edit-form{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.profile-edit-name{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.profile-edit-sentence{
+  width: 400px;
+  height: 300px;
+  border: solid #ccc 1px;
+}
+.profile-form{
+  display: flex;
 }

@@ -98,6 +98,7 @@ input.submit-btn:hover{
   height: 600px;
   width: 960px;
   background: #000;
+  padding-top: 70px;
 }
 .header-title:before{
   content: ' ';
@@ -135,6 +136,10 @@ input.submit-btn:hover{
   height: 70px;
   background: #87dfd3;
   display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
   justify-content: space-between;
 }
 
