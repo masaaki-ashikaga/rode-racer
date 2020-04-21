@@ -144,6 +144,7 @@
 .brand-introduce p{
   text-align: center;
 }
+
 .american-brand, .italian-brand, .asia-brand{
   display: flex;
   flex-wrap: wrap;
@@ -259,6 +260,11 @@
 }
 .photo-detail-info{
   width: 960px;
+}
+.gallery-comment{
+  font-size: 13px;
+  width: 270px;
+  margin: 8px 0;
 }
 .other-user-link{
   text-decoration: none;
