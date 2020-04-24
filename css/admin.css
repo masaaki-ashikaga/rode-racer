@@ -1,0 +1,96 @@
+  .site-name h1{
+    font-size: 30px;
+    line-height: 65px;
+    margin-left: 20px;
+  }
+  /* ここからhome.htmlのCSS */
+  .menu{
+    width: 100%;
+    height: 50px;
+    background: #87dfd3;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-list{
+    width: 700px;
+    padding: 20px 20px 0 20px;
+    display: flex;
+  }
+  .menu li a, .footer-menu a{ 
+    font-size: 20px;
+    text-decoration: none;
+    width: 150px;
+    color: #000;
+    margin-right: 50px;
+  }
+  .menu li:first-child{
+    margin-left: 0;
+  }
+  .menu li a:hover, .footer-menu a:hover{
+    opacity: 1.0;
+  }
+  .main{
+    margin-top: 50px;
+  }
+  table{
+    margin: 60px auto;
+    width: 960px;
+    border-collapse:separate;
+    border-spacing: 0;
+  }
+  table th:first-child{
+    border-radius: 5px 0 0 0;
+  }
+  
+  table th:last-child{
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #caf1ec;
+  }
+  table th{
+    text-align: center;
+    color:white;
+    background: linear-gradient(#87dfd3,#87dfd3);
+    border-left: 2px solid #caf1ec;
+    border-top: 2px solid #caf1ec;
+    border-bottom: 2px solid #caf1ec;
+    padding: 10px 0;
+  }
+  .id{
+      width: 50px;
+  }
+  
+  table td{
+    text-align: center;
+    border-left: 2px solid #caf1ec;
+    border-bottom: 2px solid #caf1ec;
+    border-top:none;
+    padding: 10px 0;
+  }
+  
+  table td:last-child{
+    border-right: 2px solid #caf1ec;
+  }
+  
+  table tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+  }
+  
+  table tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
+  }
+  .footer-menu{
+    background: #87dfd3;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+  }
+  .footer-menu ul{
+    width: 600px;
+    margin: 0 auto;
+    padding: 35px 0;
+  }
+  .footer-menu a{
+    font-size: 18px;
+    color: #fff;
+  }
