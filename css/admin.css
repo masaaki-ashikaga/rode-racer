@@ -86,20 +86,23 @@
   .id{
       width: 50px;
   }
-  .edit, .delete{
-      width: 70px;
-      height: 30px;
+  .edit, .delete, .detail{
       font-size: 15px;
       font-weight: bold;
       color: #fff;
       border-radius: 5px;
       background: #87dfd3;
       border: #fff solid 2px;
+      padding: 7px 35px;
+      text-decoration: none;
   }
-  .edit:hover, .delete:hover{
+  .edit:hover, .delete:hover, .detail:hover{
       background: #fff;
       color: #87dfd3;
       border: #87dfd3 solid 2px;
+  }
+  .comment{
+    width: 350px;
   }
   table td{
     text-align: center;
