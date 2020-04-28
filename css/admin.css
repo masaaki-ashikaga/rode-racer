@@ -200,3 +200,23 @@
     font-weight: bold;
     padding: 12px 20px;
   }
+  input[type="file"]{
+    display:none;
+  }
+  label{
+    text-align: center;
+    padding: 7px 40px;
+    color: #666666;
+    cursor: pointer;
+    border: #87dfd3 solid 2px;
+    border-radius: 5px;
+  }
+  label:hover{
+    background: rgb(248, 246, 246);
+  }
+  .brand-img{
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  
