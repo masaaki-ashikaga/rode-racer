@@ -67,10 +67,12 @@
   table th:first-child{
     border-radius: 5px 0 0 0;
   }
-  
   table th:last-child{
     border-radius: 0 5px 0 0;
     border-right: 1px solid #caf1ec;
+  }
+  table .comment{
+    width: 400px;
   }
   table th{
     text-align: center;
@@ -82,6 +84,10 @@
     border-top: 2px solid #caf1ec;
     border-bottom: 2px solid #caf1ec;
     padding: 10px 0;
+  }
+  .preview-btn, .delete-btn{
+    text-align: center;
+    margin-bottom: 20px;
   }
   .id{
       width: 50px;
@@ -137,6 +143,9 @@
   .footer-menu a{
     font-size: 18px;
     color: #fff;
+  }
+  .admin-footer{
+    justify-content: space-between;
   }
   .new-create-admin{
       display: flex;
