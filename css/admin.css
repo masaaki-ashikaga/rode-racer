@@ -86,7 +86,7 @@
   .id{
       width: 50px;
   }
-  .edit, .delete, .detail{
+  .edit, .delete, .preview{
       font-size: 15px;
       font-weight: bold;
       color: #fff;
@@ -96,7 +96,7 @@
       padding: 7px 35px;
       text-decoration: none;
   }
-  .edit:hover, .delete:hover, .detail:hover{
+  .edit:hover, .delete:hover, .preview:hover{
       background: #fff;
       color: #87dfd3;
       border: #87dfd3 solid 2px;

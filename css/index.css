@@ -50,12 +50,18 @@
   padding: 20px 20px 0 20px;
   display: flex;
 }
+.admin-list{
+  width: 550px;
+}
 .menu li a, .footer-menu a{ 
   font-size: 20px;
   text-decoration: none;
   width: 150px;
   color: #000;
   margin-right: 35px;
+}
+.admin-list li a{
+  margin-right: 50px;
 }
 .menu li:first-child{
   margin-left: 0;
@@ -101,6 +107,9 @@
 .footer-menu a{
   font-size: 18px;
   color: #fff;
+}
+.admin-footer-list{
+  justify-content: space-between;
 }
 .page-content{
   margin-bottom: 10px;
@@ -461,4 +470,26 @@ input.submit-btn:hover{
 }
 .profile-form{
   display: flex;
+}
+
+/* ここからadmin-brandのpreview画面 */
+.brand-admin{
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+.brand-admin-operate{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: #87dfd3;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 20px;
+  border: #fff solid 2px;
+}
+.brand-admin-operate:hover{
+  background: #fff;
+  border: #87dfd3 solid 2px;
+  color: #87dfd3;
 }
