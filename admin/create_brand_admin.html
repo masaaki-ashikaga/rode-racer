@@ -35,8 +35,8 @@
                 <h1 class="form-title">Admin Brand Create</h1>
                 <p><input type="text" name="brandname" class="brandname" placeholder="brandname"></p>
                 <p><input type="text" name="url" class="url" placeholder="URL"></p>
-                <p>Price
-                  <select>
+                <p class="price-select">Price
+                  <select class="price">
                     <option>5万〜</option>
                     <option>10万〜</option>
                     <option>15万〜</option>
@@ -44,9 +44,10 @@
                     <option>25万〜</option>
                     <option>30万〜</option>
                   </select>
-                <p><textarea name="comment" class="comment" placeholder="comment"></textarea></p>
-                <p><textarea name="history" class="history" placeholder="history"></textarea></p>
-                <p><textarea name="character" class="character" placeholder="character"></textarea></p>
+                </p>
+                <p><textarea name="comment" class="comment-text" placeholder="comment" rows="5" cols="37"></textarea></p>
+                <p><textarea name="history" class="history" placeholder="history" rows="13" cols="37"></textarea></p>
+                <p><textarea name="character" class="character" placeholder="character" rows="13" cols="37"></textarea></p>
                 <p class="brand-img"><label><input type="file" name="brand-main-img">メイン画像を選択</label></p>
                 <p class="brand-img"><label><input type="file" name="brand-sub-img1">サブ画像１を選択</label></p>
                 <p class="brand-img"><label><input type="file" name="brand-sub-img2">サブ画像２を選択</label></p>
