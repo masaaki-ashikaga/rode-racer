@@ -72,7 +72,18 @@
     border-right: 1px solid #caf1ec;
   }
   table .comment{
-    width: 400px;
+    width: 430px;
+  }
+  .comment-td{
+    text-align: left;
+    vertical-align: middle;
+    padding: 7px;
+  }
+  table .user{
+    width: 120px;
+  }
+  table .mail{
+    width: 200px;
   }
   table th{
     text-align: center;
@@ -85,9 +96,9 @@
     border-bottom: 2px solid #caf1ec;
     padding: 10px 0;
   }
-  .preview-btn, .delete-btn{
+  .edit-btn, .preview-btn, .delete-btn{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .id{
       width: 50px;
@@ -99,7 +110,7 @@
       border-radius: 5px;
       background: #87dfd3;
       border: #fff solid 2px;
-      padding: 7px 35px;
+      padding: 5px 30px;
       text-decoration: none;
   }
   .edit:hover, .delete:hover, .preview:hover{
@@ -121,7 +132,7 @@
   table td:last-child{
     border-right: 2px solid #caf1ec;
   }
-  
+
   table tr:last-child td:first-child {
     border-radius: 0 0 0 5px;
   }
@@ -183,12 +194,12 @@
     padding: 10px;
     border-bottom: 1px solid #000;
   }
-  .price-select{
+  .price-select, .user_status{
     margin: 1em auto;
     color: #757575;
     font-size: 19px;
   }
-  .price{
+  .price, .status_select{
     width: 100%;
     cursor: pointer;
     background: #fff;

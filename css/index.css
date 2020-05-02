@@ -473,12 +473,12 @@ input.submit-btn:hover{
 }
 
 /* ここからadmin-brandのpreview画面 */
-.brand-admin{
+.admin{
   display: flex;
   margin: 20px 0;
   justify-content: center;
 }
-.brand-admin-operate{
+.admin_btn{
   text-decoration: none;
   color: #fff;
   font-weight: bold;
@@ -488,7 +488,7 @@ input.submit-btn:hover{
   margin: 20px;
   border: #fff solid 2px;
 }
-.brand-admin-operate:hover{
+.brand-admin-operate:hover, .admin_btn:hover{
   background: #fff;
   border: #87dfd3 solid 2px;
   color: #87dfd3;
