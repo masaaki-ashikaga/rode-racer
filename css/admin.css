@@ -212,7 +212,7 @@
     font-size: 15px;
     border-radius: 0px;
   }
-  .comment-text, .history, .character, .access-text{
+  .comment-text, .history, .character, .access-text, .course_info{
     border: #757575 solid 1px;
     padding: 5px;
     margin-bottom: 20px;

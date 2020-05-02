@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css.base.css">
   <link rel="stylesheet" href="../../css/admin.css">
-  <title>Create User</title>
+  <title>Create Brand</title>
 </head>
 
 <body>
@@ -17,11 +17,11 @@
       </div>
       <div class="site-menu">
         <ul class="menu-list">
-          <li><a href="./user_admin.html">User</a></li>
+          <li><a href="../user_admin/user_admin.html" class="page-link">User</a></li>
           <li><a href="../brand_admin/brand_admin.html" class="page-link">Brand</a></li>
           <li><a href="../gallery_admin/gallery_admin.html" class="page-link">Gallery</a></li>
           <li><a href="../shop_admin/shop_admin.html" class="page-link">Shop</a></li>
-          <li><a href="../course_admin/course_admin.html" class="page-link">Course</a></li>
+          <li><a href="./course_admin.html">Course</a></li>
         </ul>
       </div>
     </div>
@@ -32,16 +32,20 @@
       <div class="new-create-admin">
           <div class="form">
             <form>
-                <h1 class="form-title">Admin User Create</h1>
-                <p><input type="text" name="username" class="username" placeholder="username"></p>
-                <p><input type="text" name="mail" class="mail" placeholder="mail"></p>
-                <p><input type="password" name="password" class="password" placeholder="password"></p>
-                <p class="user_status">User Status
+                <h1 class="form-title">Admin Course Create</h1>
+                <p><input type="text" name="coursename" class="coursename" placeholder="CourseName"></p>
+                <p><textarea name="comment" class="comment-text" placeholder="Comment" rows="8" cols="37"></textarea></p>
+                <p><textarea name="course_info" class="course_info" placeholder="Course Information" rows=12 cols="37"></textarea></p>
+                <p class="user_status">Course Status
                   <select class="status_select">
-                    <option>Admin</option>
-                    <option>User</option>
+                    <option>Private</option>
+                    <option>Public</option>
                   </select>
                 </p>
+                <p class="brand-img"><label><input type="file" name="brand-main-img">メイン画像を選択</label></p>
+                <p class="brand-img"><label><input type="file" name="brand-sub-img1">サブ画像１を選択</label></p>
+                <p class="brand-img"><label><input type="file" name="brand-sub-img2">サブ画像２を選択</label></p>
+                <p class="brand-img"><label><input type="file" name="brand-sub-img3">サブ画像３を選択</label></p>
                 <p class="btn"><input type="submit" value="Create" class="submit-btn"></p>
           </form>
         </div>
@@ -51,11 +55,11 @@
   <footer>
     <div class="footer-menu">
       <ul class="menu-list admin-footer">
-        <li><a href="./user_admin.html">User</a></li>
+        <li><a href="../user_admin/user_admin.html" class="page-link">User</a></li>
         <li><a href="../brand_admin/brand_admin.html" class="page-link">Brand</a></li>
         <li><a href="../gallery_admin/gallery_admin.html" class="page-link">Gallery</a></li>
         <li><a href="../shop_admin/shop_admin.html" class="page-link">Shop</a></li>
-        <li><a href="../course_admin/course_admin.html" class="page-link">Course</a></li>
+        <li><a href="./course_admin.html">Course</a></li>
     </ul>
     </div>
   </footer>
