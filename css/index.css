@@ -270,6 +270,10 @@
 .photo-detail-info{
   width: 960px;
 }
+.course-detail-info{
+  margin-bottom: 30px;
+  width :960px;
+}
 .gallery-comment{
   font-size: 13px;
   width: 270px;
@@ -492,4 +496,11 @@ input.submit-btn:hover{
   background: #fff;
   border: #87dfd3 solid 2px;
   color: #87dfd3;
+}
+.shop-preview{
+  width: 400px;
+  margin: 0 auto 30px auto;
+}
+.preview-main{
+  margin-top: 0px;
 }
