@@ -29,7 +29,7 @@
     </div>
     <div class="gallery-header">
       <div class="page-content">
-        <h1 class="page-title">New Post</h1>
+        <h1 class="page-title">New Course Post</h1>
       </div>
     </div>
   </header> 
@@ -39,16 +39,13 @@
       <div class="post-list">
         <div class="form">
           <form>
-            <label for="main-image">メイン画像</label>
-            <p class="image-post"><input type="file" name="main-image" class="image-post"></p>
-            <label for="sub-image">サブ画像01</label>
-            <p class="image-post"><input type="file" name="sub-image" class="image-post"></p>
-            <label for="main-image">サブ画像02</label>
-            <p class="image-post"><input type="file" name="sub-image" class="image-post"></p>
-            <label for="main-image">サブ画像03</label>
-            <p class="image-post"><input type="file" name="sub-image" class="image-post"></p>
-            <textarea class="chara" placeholder="コースの紹介"></textarea>
-            <p class="btn"><input type="submit" value="Post" class="submit-btn"></p>
+            <p><textarea name="comment" class="comment-text" placeholder="Comment" rows="5" cols="37"></textarea></p>
+            <p><textarea name="course_info" class="course_info" placeholder="Course Info" rows="10" cols="37"></textarea></p>
+            <p class="post-img"><label class="course_post_label"><input type="file" name="course-main-img">メイン画像を選択</label></p>
+            <p class="post-img"><label class="course_post_label"><input type="file" name="course-sub1-img">サブ画像1を選択</label></p>
+            <p class="post-img"><label class="course_post_label"><input type="file" name="course-sub2-img">サブ画像2を選択</label></p>
+            <p class="post-img"><label class="course_post_label"><input type="file" name="course-sub3-img">サブ画像3を選択</label></p>
+            <p class="btn"><input type="submit" value="Create" class="submit-btn"></p>
           </form>
         </div>
       </div>

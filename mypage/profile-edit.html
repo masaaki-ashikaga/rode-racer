@@ -36,23 +36,13 @@
   </header>
   
   
-  <main class="main">
+  <main class="profile-edit-main">
     <div class="profile-edit-form">
-      <form>
-        <div class="name-form">
-          <label for="name">ニックネーム：</label>
-          <input type="text" name="name" class="profile-edit-name">
-        </div>
-        <div class="profile-form">
-          <label for="profile">自己紹介文：</label>
-          <textarea name="profile" class="profile-edit-sentence"></textarea>
-        </div>
-        
-        <div class="photo-form">
-          <label for="photo">プロフィール写真</label>
-          <input type="file" class="profile-image">
-        </div>
-        <input type="submit" class="profile-edit-btn" value="Edit Done">
+      <form class="form">
+        <p><label></label><input type="text" name="nickname" class="nickname" placeholder="Nickname"></p>
+        <p><textarea name="introduction" class="introduction" placeholder="Introduction" rows="10" cols="37"></textarea></p>
+        <p class="post-img"><label class="gallery_post_label"><input type="file" name="brand-main-img">画像を選択</label></p>
+        <p class="btn"><input type="submit" value="Create" class="submit-btn"></p>
       </form>
     </div>
   </main>   
