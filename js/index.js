@@ -1,5 +1,8 @@
 
+var dels = document.querySelectorAll('button');
 
-const del = document.getElementById('del');
-
-console.log(del);
+dels.forEach((del) =>{
+    del.addEventListener('click', () =>{
+        window.confirm('削除してよろしいですか？');
+    });
+});
