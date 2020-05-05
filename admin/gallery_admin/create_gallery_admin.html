@@ -22,6 +22,7 @@
           <li><a href="./gallery_admin.html">Gallery</a></li>
           <li><a href="../shop_admin/shop_admin.html" class="page-link">Shop</a></li>
           <li><a href="../course_admin/course_admin.html" class="page-link">Course</a></li>
+          <li><a href="../../admin.html" class="page-link">Logout</a></li>
         </ul>
       </div>
     </div>
@@ -36,10 +37,11 @@
                 <p><textarea name="comment" class="comment-text" placeholder="Comment" rows="5" cols="37"></textarea></p>
                 <p class="user_status">Gallery Status
                   <select class="status_select">
-                    <option>Private</option>
-                    <option>Public</option>
+                    <option>非公開</option>
+                    <option>公開中</option>
                   </select>
                 </p>
+                <p><input type="text" name="url" class="url" placeholder="Video URL"></p>
                 <p class="brand-img"><label><input type="file" name="brand-main-img">画像を選択</label></p>
                 <p class="btn"><input type="submit" value="Create" class="submit-btn"></p>
           </form>

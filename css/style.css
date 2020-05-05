@@ -1,9 +1,12 @@
 .signup-page, .login-page{
   margin: 50px auto;
-  height: 400px;
+  height: 450px;
   width: 450px;
   border: solid #87dfd3;
   padding: 20px;
+}
+.admin-login{
+  height: 380px;
 }
 .site-name h1{
   font-size: 30px;
@@ -47,7 +50,7 @@
   height: 100px;
   margin-bottom: 30px;
 }
-input.submit-btn{
+a.submit-btn, input.submit-btn{
   margin-top: 20px;
   width: 150px;
   height: 50px;
@@ -59,8 +62,9 @@ input.submit-btn{
   vertical-align: middle;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
 }
-input.submit-btn:hover{
+a.submit-btn:hover, input.submit-btn:hover{
   color: #87dfd3;
   border: 2px solid #87dfd3;
   background: #fff;
